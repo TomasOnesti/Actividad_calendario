@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <!-- Contenedor principal del calendario -->
+    <div class="calendar">
+        <!-- Información del mes y año -->
+        <div class="calendarinfo">
+            <!-- Botón para ir al mes anterior -->
+            <div class="calendar_change" id="prev-month">&#9664;</div>
+            <div class="calendartitle">
+                <!-- Mostrar el mes actual -->
+                <div class="calendar__month" id="month">Abril</div>
+                <!-- Mostrar el año actual -->
+                <div class="calendar__year" id="year">2023</div>    
+            </div>
+            <!-- Botón para ir al mes siguiente -->
+            <div class="calendar_change" id="next-month">&#9654;</div>
+        </div>
+        <!-- Días de la semana -->
+        <div class="calendarweek">
+            <!-- Lunes -->
+            <div class="calendar_day calendar__item">Lunes</div>
+            <!-- Martes -->
+            <div class="calendar_day calendar__item">Martes</div>
+            <!-- Miércoles -->
+            <div class="calendar_day calendar__item">Miércoles</div>
+            <!-- Jueves -->
+            <div class="calendar_day calendar__item">Jueves</div>
+            <!-- Viernes -->
+            <div class="calendar_day calendar__item">Viernes</div>
+            <!-- Sábado -->
+            <div class="calendar_day calendar__item">Sábado</div>
+            <!-- Domingo -->
+            <div class="calendar_day calendar__item">Domingo</div>
+        </div>
+    </div>
+</body>
+</html>
