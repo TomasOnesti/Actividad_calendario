@@ -26,15 +26,43 @@
 }
 
 .calendarweek{
-    display: grid;
-    grid-template-columns: repeat(7,1fr); 
- 
     margin: 0px;
     background-color: rgb(184, 183, 183);
-  
     font-size: 1rem;
 }
+
+.calendarweek, .orden{
+    display: grid;
+    grid-template-columns: repeat(7,1fr); 
+}
+
+
 .calendar_day{
     border: rgb(223, 218, 218) solid 2px;
     padding: 1rem;
+}
+
+.fuera_mes{
+    opacity: 0.4;
+    color: #dd0b0b;
+}
+
+.orden_dia{
+    height: 85px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(163, 144, 144);
+    border: rgb(223, 218, 218) solid 2px;
+}
+
+
+.dia_actual{
+    background-color: rgb(77, 235, 130);
+    color: #8b8b8b;
+}
+
+.bisiesto{
+    color: goldenrod;
+    background-color: #f81919;
 }
