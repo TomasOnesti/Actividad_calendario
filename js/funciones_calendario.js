@@ -99,3 +99,20 @@ function borrarnombre(){
 }
 
 guardado()
+
+let infantil = false;
+
+const modo= document.getElementById("modo-btn");
+
+modo.addEventListener("click", () => {
+    infantil = !infantil;
+
+    // alterna la clase en TODO el calendario
+    document.querySelector(".calendar").classList.toggle("infantil");
+
+    if(infantil){
+        botonModo.textContent = "Modo normal";
+    }else{
+        botonModo.textContent = "Modo infantil";
+    }
+});

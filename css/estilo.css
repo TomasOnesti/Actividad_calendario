@@ -84,3 +84,51 @@
     background-color: rgb(163, 144, 144);
     
 }
+
+
+
+.calendar.infantil {
+    background: #fff0f5;
+    border: 4px solid #ff69b4;
+}
+
+
+.calendar.infantil .calendartitle {
+    color: #ff1493;
+    font-size: 3rem;
+}
+
+.calendar.infantil .calendarinfo{
+    background-color: white;
+}
+
+.calendar.infantil .calendar_day {
+    background-color: #ffccff;
+    color: #333;
+    border-radius: 10px;
+}
+
+
+.calendar.infantil .orden_dia {
+    background-color: #ffff99;
+    border-radius: 12px;
+    margin: 3px;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+}
+
+
+.calendar.infantil .orden_dia:hover {
+    transform: scale(1.1);
+}
+
+
+.calendar.infantil .dia_actual {
+    background-color: #ffb347 !important;
+    border: 2px solid orange;
+}
+
+
+.calendar.infantil .fuera_mes {
+    opacity: 0.4;
+}
