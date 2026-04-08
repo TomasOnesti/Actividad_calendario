@@ -6,7 +6,7 @@
 .calendarinfo{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 46rem;
+    gap: 40rem;
     padding-left: 1rem;
     background-color: rgb(235, 94, 94);
     align-items: center;
@@ -48,7 +48,7 @@
 }
 
 .orden_dia{
-    height: 85px;
+    height: 70px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -65,4 +65,22 @@
 .bisiesto{
     color: goldenrod;
     background-color: #f81919;
+}
+
+.mensaje{
+    display: flex;
+    background-color: goldenrod;
+    align-items: center;
+}
+.saludo{
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.cambio{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(163, 144, 144);
+    
 }

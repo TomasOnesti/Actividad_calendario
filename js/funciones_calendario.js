@@ -81,6 +81,21 @@ document.getElementById("next-month").addEventListener("click", ()=>{
 
 calendario(fecha_actual)
 
+function guardado(){
+    const mensaje = document.getElementById("saludo");
+    let nombre = localStorage.getItem("nombre");
+    
+    if(!nombre){
+        nombre = prompt("¿Cuál es tu nombre?");
+        localStorage.setItem("nombre", nombre);
+    }
 
+    mensaje.textContent= "Hola "+ nombre + " ¡Bienvenido!"
+}
 
+function borrarnombre(){
+    localStorage.removeItem("nombre");
+    location.reload();
+}
 
+guardado()
